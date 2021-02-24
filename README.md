@@ -51,13 +51,13 @@ To get the avaiable key per filter, use the --get_available_keys_for_filter opti
         "DYNAMODB"
     ]
 
-Example usage:
+Usage:
 
     python3 get_aws_range.py --filters service=S3,region=eu-central-1
     
- By default, this will create a file in the run directory ('aws_range_service_S3_region_eu-central-1' in this case). The file path/name can be modified by the -f option.
+By default, this will create a file in the run directory (named 'aws_range_service_S3_region_eu-central-1' in this case). The file path/name can be modified by the -f option.
  
- To print the result to stdout, use the -p option:
+ To print the same result to stdout, use the -p option:
  
     python3 get_aws_range.py --filters service=S3,region=eu-central-1 -p
     52.219.168.0/24
