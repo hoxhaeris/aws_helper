@@ -1,6 +1,6 @@
 # AWS Helper
 
-Small helper script to get the AWS IP ranges, and filter with any key. 
+Small helper script to get and filter AWS IP ranges.
 
     optional arguments:
       -h, --help            show this help message and exit
